@@ -1,0 +1,21 @@
+[
+    {
+        "lora_path": "/home/user/R13943013/dlcv_final/Mix-of-Show/experiments/cat2_best/models/edlora_model-latest.pth",
+        "unet_alpha": 1.0,
+        "text_encoder_alpha": 1.0,
+        "concept_name": "<cat1> <cat2>"
+    },
+    {
+        "lora_path": "/home/user/R13943013/dlcv_final/Mix-of-Show/experiments/8101_EDLoRA_glasses/models/edlora_model-latest.pth",
+        "unet_alpha": 1.0,
+        "text_encoder_alpha": 1.0,
+        "concept_name": "<wearable_glasses1> <wearable_glasses2>"
+    },
+    {
+        "lora_path": "/home/user/R13943013/dlcv_final/Mix-of-Show/experiments/8101_EDLoRA_watercolor/models/edlora_model-latest.pth",
+        "unet_alpha": 1.0,
+        "text_encoder_alpha": 1.0,
+        "concept_name": "<watercolor1> <watercolor2>"
+    }
+
+]

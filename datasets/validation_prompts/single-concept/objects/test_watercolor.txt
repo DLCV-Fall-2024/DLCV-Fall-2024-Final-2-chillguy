@@ -1,0 +1,8 @@
+a photo of in the style of <TOK>
+<TOK>
+photo in the style of watercolor
+a painting in the style of <TOK>
+a rendering in the style of <TOK>
+a cat in the style of <TOK>
+a dog wearing sunglasses in the style of <TOK>
+           

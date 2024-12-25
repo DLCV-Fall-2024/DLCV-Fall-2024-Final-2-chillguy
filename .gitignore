@@ -4,3 +4,5 @@
 
 student_data/*
 sample_submission.csv
+*.png
+*.pyc

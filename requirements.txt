@@ -1,0 +1,12 @@
+accelerate
+diffusers==0.19.3
+transformers
+#torch
+#torchvision
+omegaconf
+opencv-python
+einops
+IPython
+#xformers
+huggingface_hub==0.24.6
+gdown

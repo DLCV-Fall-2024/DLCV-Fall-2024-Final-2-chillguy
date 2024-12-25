@@ -1,0 +1,6 @@
+[
+    {
+        "instance_prompt": "<TOK>",
+        "instance_data_dir": "../Data/concept_image/watercolor/image"
+    }
+]

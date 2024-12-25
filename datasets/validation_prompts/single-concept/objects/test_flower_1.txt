@@ -1,0 +1,7 @@
+photo of a <TOK>
+<TOK>
+photo of a vase
+a leaf on a <TOK>
+a <TOK> in a garden
+a <TOK>, near the window
+a <TOK>, outdoor

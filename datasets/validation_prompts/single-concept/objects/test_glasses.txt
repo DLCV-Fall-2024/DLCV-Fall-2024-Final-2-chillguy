@@ -1,0 +1,7 @@
+photo of a <TOK>
+<TOK>
+photo of a glasses
+a cat wear a <TOK>
+a dog wear a <TOK>
+a person wear a <TOK>
+<TOK>, on the face

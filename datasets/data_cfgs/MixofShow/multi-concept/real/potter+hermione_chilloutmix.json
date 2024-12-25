@@ -1,0 +1,15 @@
+[
+    {
+        "lora_path": "/home/phank1026/dlcv/Final_Project/Mix-of-Show/experiments/8101_EDLoRA_potter_Cmix_B4_Repeat500_archived_20241210_171052/models/edlora_model-latest.pth",
+        "unet_alpha": 1.0,
+        "text_encoder_alpha": 1.0,
+        "concept_name": "<potter1> <potter2>"
+    },
+    {
+        "lora_path": "/home/phank1026/dlcv/Final_Project/Mix-of-Show/experiments/8102_EDLoRA_hermione_Cmix_B4_Repeat500/models/edlora_model-latest.pth",
+        "unet_alpha": 1.0,
+        "text_encoder_alpha": 1.0,
+        "concept_name": "<hermione1> <hermione2>"
+    }
+
+]
