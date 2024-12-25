@@ -1,4 +1,9 @@
 # Download dataset
+mkdir -p experiments
+mkdir -p experiments/prompt1
+mkdir -p experiments/prompt2
+mkdir -p experiments/prompt3
+mkdir -p experiments/prompt4
 # prompt1
 gdown "11tsTQ9xoZr49hFj9gZpd-KdyPqdqNoDX" 
 wait
