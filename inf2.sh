@@ -111,7 +111,7 @@ then
   #   --seed=14
   seed_list='[14, 18, 26, 29, 30, 42, 54, 76, 93, 94, 95]' # flower_vase
 
-  python inf2.py \
+  python3 inf2.py \
     --pretrained_model=${fused_model} \
     --sketch_adaptor_weight=${sketch_adaptor_weight}\
     --sketch_condition=${sketch_condition} \

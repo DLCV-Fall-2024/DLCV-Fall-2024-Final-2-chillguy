@@ -43,6 +43,37 @@ bash train.sh <Path to gt image folder> <Path to annot file>
 bash inference.sh <Path to gt image folder> <Path to annot file> <Path to output image folder>
 ```
 # Training
+# Download Dataset
+```shell script=
+bash download_train.sh
+```
+# Run single concept training
+* concept list
+    * cat2.yml
+    * dog6.yml
+    * flower_1.yml
+    * dog.yml
+    * pet_cat1.yml
+    * vase.yml
+    * watercolor.yml
+    * wearable_glasses.yml
+```shell script=
+bash train.sh  <concept.yaml>
+```
+* For example, to train the model for concept `cat2.yml`, run the following command:
+```shell script=
+bash train.sh cat2.yml
+```
+* The trained model will be saved in the `experiments/<concept>/models` folder.
+* For example, the trained model for concept `cat2.yml` will be saved in the `experiments/cat2/models/edlora_model-latest.pth` folder.
+* `edlora_model-latest.pth` is the lora weights checkpoint of the single concept which will be used for fusion training.
+
+
+# Fusion Training
+```shell script=
+bash fuse.sh
+```
+
 
 # Usage
 To start working on this final project, you should clone this repository into your local machine by the following command:

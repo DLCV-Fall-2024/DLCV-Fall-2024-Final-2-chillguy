@@ -1,8 +1,8 @@
 [
     {
         "instance_prompt": "<TOK>",
-        "instance_data_dir": "../Data/concept_image/flower_1/image",
-        "caption_dir": "../Data/concept_image/flower_1/caption",
-        "mask_dir": "../Data/concept_image/flower_1/mask"
+        "instance_data_dir": "./Data/concept_image/flower_1/image",
+        "caption_dir": "./Data/concept_image/flower_1/caption",
+        "mask_dir": "./Data/concept_image/flower_1/mask"
     }
 ]
