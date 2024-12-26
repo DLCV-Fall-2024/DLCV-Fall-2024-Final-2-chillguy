@@ -6,6 +6,7 @@
 # Environment setup
 ```shell script=
 git clone https://github.com/DLCV-Fall-2024/DLCV-Fall-2024-Final-2-chillguy.git
+cd DLCV-Fall-2024-Final-2-chillguy
 mkdir experiments && cd experiments
 mkdir pretrained_models && cd pretrained_models
 # Diffusers-version ChilloutMix
@@ -13,6 +14,7 @@ git-lfs clone https://huggingface.co/windwhinny/chilloutmix.git
 
 cd ../../
 conda create -n dlcvteam10 python=3.9
+conda activate dlcvteam10
 # For cuda=12.2
 pip3 install torch torchvision torchaudio
 pip install xformers
