@@ -1,12 +1,12 @@
 [
     {
-        "lora_path": "/home/user/R13943013/dlcv_final/Mix-of-Show/experiments/8101_EDLoRA_flower_1/models/edlora_model-latest.pth",
+        "lora_path": "./experiments/flower_1/models/edlora_model-latest.pth",
         "unet_alpha": 1.0,
         "text_encoder_alpha": 1.0,
         "concept_name": "<flower1> <flower2>"
     },
     {
-        "lora_path": "/home/user/R13943013/dlcv_final/Mix-of-Show/experiments/8101_EDLoRA_vase/models/edlora_model-latest.pth",
+        "lora_path": "./experiments/vase/models/edlora_model-latest.pth",
         "unet_alpha": 1.0,
         "text_encoder_alpha": 1.0,
         "concept_name": "<vase1> <vase2>"

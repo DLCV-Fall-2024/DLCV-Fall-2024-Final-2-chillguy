@@ -1,12 +1,12 @@
 [
     {
-        "lora_path": "/home/user/R13943013/dlcv_final/Mix-of-Show/experiments/8101_EDLoRA_dog6/models/edlora_model-latest.pth",
+        "lora_path": "./experiments/dog6/models/edlora_model-latest.pth",
         "unet_alpha": 1.0,
         "text_encoder_alpha": 1.0,
         "concept_name": "<dog1> <dog2>"
     },
     {
-        "lora_path": "/home/user/R13943013/dlcv_final/Mix-of-Show/experiments/8101_EDLoRA_cat2/models/edlora_model-latest.pth",
+        "lora_path": "./experiments/cat2/models/edlora_model-latest.pth",
         "unet_alpha": 1.0,
         "text_encoder_alpha": 1.0,
         "concept_name": "<cat1> <cat2>"

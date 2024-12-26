@@ -39,12 +39,9 @@ bash inf4.sh
 ```
 * The generated images will be saved in the `sample_submission/<prompt_id>` folder.
 * For example, the generated images for prompt 0 will be saved in the `sample_submission/0` folder.
-
-```shell script=
-bash train.sh <Path to gt image folder> <Path to annot file>
-bash inference.sh <Path to gt image folder> <Path to annot file> <Path to output image folder>
-```
+ 
 # Training
+* Inferece can just run without training. Just follow the above steps
 # Download Dataset
 ```shell script=
 bash download_train.sh
@@ -72,10 +69,28 @@ bash train.sh cat2.yml
 
 
 # Fusion Training
+* After training the single concept models, we can find the checkpoint files in the `experiments/<concept>/models` folder.
+* We can use the following command to train the fusion model. 
+* Therefore, you need to train the model for each concept first and put the checkpoints in the `experiments/<concept>/models` folder.
+* prompt list
+    * 1: cat2, dog6
+    * 2: flower_1, vase
+    * 3: dog, pet_cat1, dog6
+    * 4: cat2, dog6, watercolor, wearable_glasses
 ```shell script=
-bash fuse.sh
+bash fuse.sh <prompt_id>
 ```
-
+* For example, to train the model for prompt 1, run the following command:
+```shell script=
+bash fuse.sh 1
+```
+* The fused model will be saved in the `experiments/prompt<prompt_id>/` folder.
+* For example, the fused model for prompt 1 will be saved in the `experiments/prompt1/` folder.
+* Then, you can follow the instructions above to run the inference script to generate the images for the prompt.
+* For example, to generate the images for prompt 1, run the following command:
+```shell script=
+bash inf1.sh
+```
 
 # Usage
 To start working on this final project, you should clone this repository into your local machine by the following command:
